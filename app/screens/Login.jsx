@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
         width: 415,
         height: 550,
         borderRadius: '20',
-        marginTop: -20,
+        marginTop: 5,
     },
     container: {
         display: 'flex',

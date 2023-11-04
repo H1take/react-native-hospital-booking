@@ -25,8 +25,10 @@ const Header = () => {
                     source={{ uri: user.imageUrl }}
                 />
                 <View style={{ marginLeft: 5 }}>
-                    <Text>Hello 👋</Text>
-                    <Text style={{ fontSize: 18, fontWeight: 'bold' }}>{user.fullName}</Text>
+                    <Text style={{ fontFamily: 'appfontRegular', marginLeft: 3 }}>Hello 👋</Text>
+                    <Text style={{ fontSize: 18, fontWeight: 'bold', fontFamily: 'appfontBold' }}>
+                        {user.fullName}
+                    </Text>
                 </View>
             </View>
             <Ionicons name='notifications-outline' size={30} color={'black'} />
